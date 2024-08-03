@@ -18,12 +18,12 @@ public class HashMapBasic {
         map.put("en", "England");
         // map.remove("us", "USA");
         
-        // System.out.println(map.containsKey("pn"));
+        System.out.println(map.containsKey("in"));
         // System.out.println(" contains value: "+ map.containsValue("Indian"));
         
         // System.out.println(map);
         
-        // System.out.println(map.get("pn")); //  if not found return null
+        System.out.println(map.get("in")); //  if not found return null
         // System.out.println(map.getOrDefault(  "pn" ,"Others"));
 
         Set<Map.Entry<String, String>> keyValue = map.entrySet(); //  return all key value pair

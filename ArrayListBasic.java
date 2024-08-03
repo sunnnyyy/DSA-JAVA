@@ -52,5 +52,10 @@ public class ArrayListBasic {
         System.out.println(list.lastIndexOf(200)); 
 
 
+
+        // int[] array = {5, 2, 8, 1, 3};
+        // int key = 8;
+        //IMP:  boolean found = Arrays.stream(array).anyMatch(value -> value == key);
+
     }
 }
