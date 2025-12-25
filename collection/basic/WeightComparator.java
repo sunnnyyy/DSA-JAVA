@@ -1,3 +1,5 @@
+package collection.basic;
+
 import java.util.Comparator;
 
 public class WeightComparator implements Comparator<Student> {

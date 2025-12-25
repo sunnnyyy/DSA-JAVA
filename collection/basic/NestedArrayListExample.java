@@ -1,3 +1,5 @@
+package collection.basic;
+
 import java.util.ArrayList;
 
 public class NestedArrayListExample {

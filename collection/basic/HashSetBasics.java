@@ -1,8 +1,6 @@
-import java.util.HashSet;
-import java.util.LinkedHashSet;
-import java.util.Set;
-import java.util.TreeSet;
+package collection.basic;
 
+import java.util.HashSet;
 
 
 public class HashSetBasics {
@@ -12,9 +10,9 @@ public class HashSetBasics {
 
         HashSet<Student> set = new HashSet<>();
 
-        Student s1 = new Student(1,"Babbar");
-        Student s2 = new Student(1,"Babbar");
-        Student s3 = new Student(1,"Babbar");
+        Student s1 = new Student(1, "Babbar", 70);
+        Student s2 = new Student(1, "Babbar", 65);
+        Student s3 = new Student(1, "Babbar", 66);
 
         set.add(s1);
         set.add(s2);

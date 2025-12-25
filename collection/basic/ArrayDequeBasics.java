@@ -1,6 +1,7 @@
+package collection.basic;
+
 import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.Queue;
 
 public class ArrayDequeBasics {
     public static void main(String[] args) {

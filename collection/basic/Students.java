@@ -1,10 +1,12 @@
+package collection.basic;
+
 import java.util.Objects;
 
-public class Student {
+public class Students {
     public int rollNo;
     public String name;
 
-    public Student(int rollNo, String name) {
+    public Students(int rollNo, String name) {
         this.rollNo = rollNo;
         this.name = name;
     }
@@ -21,7 +23,7 @@ public class Student {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Student student = (Student) o;
+        Students student = (Students) o;
         return rollNo == student.rollNo;
     }
 

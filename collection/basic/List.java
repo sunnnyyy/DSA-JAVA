@@ -1,4 +1,5 @@
-import java.lang.reflect.Array;
+package collection.basic;
+
 import java.util.*;
 
 public class List {

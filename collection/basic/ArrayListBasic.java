@@ -1,3 +1,5 @@
+package collection.basic;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -53,7 +55,7 @@ public class ArrayListBasic {
 
         // int[] array = {5, 2, 8, 1, 3};
         // int key = 8;
-        // IMP: boolean found = Arrays.stream(array).anyMatch(value -> value == key);
+        // IMP: boolean found = DSA.Arrays.stream(array).anyMatch(value -> value == key);
 
         // Print the current subset
         // List<List<Integer>> subsets = new ArrayList<>();
